@@ -11,7 +11,7 @@ main .inner {
 .kv {
     font-family: 'Poppins', sans-serif;
     color: #fff;
-    background: url(assets/images/kv.png) fixed;
+    background: url("/assets/images/kv.png") fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
