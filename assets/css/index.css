@@ -1,0 +1,64 @@
+/* foundation */
+main {
+    width: 100%;
+}
+
+main .inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.kv {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background: url(/assets/images/kv.png) fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    border: 1px solid #000;
+    box-shadow: -1px -5px 5px 0px rgba(36,35,35,0.75) inset;
+    -webkit-box-shadow: -1px -5px 5px 0px rgba(36,35,35,0.75) inset;
+    -moz-box-shadow: -1px -5px 5px 0px rgba(36,35,35,0.75) inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading-01 h1{
+    font-size: 40px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 10px;
+}
+
+.heading-01 p {
+    width: fit-content;
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+.kv02 {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background: url(/assets/images/kv02.png) fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    border: 1px solid #000;
+    box-shadow: 1px 5px 5px 0px rgba(36,35,35,0.75) inset;
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(36,35,35,0.75) inset;
+    -moz-box-shadow: 1px 5px 5px 0px rgba(36,35,35,0.75) inset;
+}
+
+.margin-cont {
+    height: 20vh;
+}
