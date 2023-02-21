@@ -1,6 +1,7 @@
 /* foundation */
 main {
     width: 100%;
+    font-family: 'Poppins', sans-serif;
 }
 
 main .inner {
