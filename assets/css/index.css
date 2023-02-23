@@ -124,7 +124,11 @@ main .inner {
     main .inner {
         width: 100%;
     }
-    
+
+    .projects {
+        height: fit-content;
+    }
+
     .gallery {
         display: grid;
         grid-template-columns: repeat(8, 1fr);
