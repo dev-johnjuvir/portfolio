@@ -1,4 +1,8 @@
 /* foundation */
+html {
+    scroll-behavior: smooth;
+}
+
 main {
     width: 100%;
     font-family: 'Poppins', sans-serif;
@@ -8,6 +12,9 @@ main .inner {
     width: 1200px;
     margin: 0 auto;
 }
+
+
+/* parts */
 
 .kv {
     font-family: 'Poppins', sans-serif;
@@ -27,6 +34,31 @@ main .inner {
     align-items: center;
     flex-direction: column;
 }
+
+.navlink {
+
+}
+
+.navlink-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.navlink-item {
+
+}
+
+.navlink-link {
+    display: inline-block;
+    color: #2c2c2c;
+    text-decoration: none;
+    padding: 20px;
+}
+
+
+  
+
 
 .heading-01 h1{
     font-size: 40px;
